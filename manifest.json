@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "dvachDownloader",
+    "version": "1.6",
+    "description": "Extension for downloading photos and videos from imageboard 2chan",
+    "permissions": [
+      "downloads",
+      "activeTab",
+      "scripting",
+      "storage"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icons/dvo.png"
+    },
+    "background": {
+      "service_worker": "background.js",
+      "persistent": false
+    }
+  }
+  
